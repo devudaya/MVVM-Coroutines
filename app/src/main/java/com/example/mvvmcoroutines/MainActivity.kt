@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         mainViewModel.userLiveDate.observe(this, Observer {
             println("DEBUG USER: $it")
         })
-        mainViewModel.setUserId("2")
+        mainViewModel.setUserId("1")
 
         println("DEBUG SINGLETON OBJ: ${SingletonExample.singletonObj}")
     }
